@@ -1,0 +1,34 @@
+{
+   "timestamp":"07.06.2018 09:19:18",
+   "external_id":"16",
+   "service":
+   {
+       "callback_url":"Адрес для callback"
+   },
+   "receipt":
+   {
+       "attributes":
+       {
+           "email":"Email покупателя"
+       },
+       "items":
+       [
+           {
+               "name":"Название товара",
+               "price":17,
+               "quantity":1,
+               "sum":17,
+               "tax":"vat18",
+               "tax_sum":2.59
+           }
+       ],
+       "total":17,
+       "payments":
+       [
+           {
+               "type":1,
+               "sum":17
+           }
+       ]
+   }
+}
